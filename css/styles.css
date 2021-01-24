@@ -41,6 +41,7 @@ section h2 {
   background-position: center;
   background-attachment: fixed;
   animation: animate 2s ease-in-out forwards;
+  animation-delay: 1s;
 }
 @keyframes animate {
   0% {
