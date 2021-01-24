@@ -7,9 +7,3 @@ for (let i = 0; i < 400; i++) {
   blocks[i].style.animationDuration = 2 + duration + "s";
   blocks[i].style.animationDelay = duration + "s";
 }
-
-const section = document.querySelector("section");
-
-setTimeout(() => {
-  section.classList.add("active");
-}, 14000);
